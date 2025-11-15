@@ -16,7 +16,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements DataLoader.OnDataLoadedListener {
 
-    private static final String API_URL = "http://www.floatrates.com/daily/usd.xml";
+    private static final String API_URL = "https://www.floatrates.com/daily/usd.xml";
 
     // UI Components
     private EditText filterEditText;
